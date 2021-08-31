@@ -8,3 +8,4 @@
   define('APPROOT', dirname(dirname(__FILE__)));
   define('URLROOT', 'http://localhost/frameworkApp');
   define('SITENAME', 'Framework App');
+  define('APPVERSION', '1.0.0');

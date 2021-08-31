@@ -9,6 +9,7 @@
     {
       $data = [
         'title' => 'Welcome',
+        'description' => 'Simple app created with framework'
       ];
 
       $this->view('pages/index', $data);
@@ -16,7 +17,10 @@
 
     public function about()
     {
-      $data = ['title' => 'About'];
+      $data = [
+        'title' => 'About',
+        'description' => 'App to share posts with other users'
+      ];
 
       $this->view('pages/about', $data);
     }
